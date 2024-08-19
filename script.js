@@ -41,3 +41,17 @@ const perguntas = [
         ]
     },
 ];
+function mostraPergunta(){
+    perguntaAtual = pergunta[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta() {
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+}
+
+mostraPergunta();
